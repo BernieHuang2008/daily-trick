@@ -43,6 +43,13 @@
       "trans": {
         "cn": "定期云备份重要数据以防止数据丢失。"
       }
+    },
+    {
+      "desc": "Collaboration and communication are key to successful software development.",
+      "author": "N.Chen",
+      "trans": {
+        "cn": "协作和沟通是成功的软件开发的关键。"
+      }
     }
   ]
 }
