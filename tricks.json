@@ -3,7 +3,32 @@
     {
       "desc": "short description",
       "url": "article url if have",
-      "author": "example"
+      "author": "example",
+      "trans": {
+        "lang": "translation"
+      }
+    },
+    {
+      "desc": "Use `git rebase -i` to tidy up your work-tree!",
+      "url": "https://help.github.com/en/github/using-git/about-git-rebase#commands-available-while-rebasing",
+      "author": "B.Huang",
+      "trans": {
+        "cn": "使用 `git rebase -i` 命令整理你的git工作树！"
+      }
+    },
+    {
+      "desc": "Always leave a meaningful commit-message.",
+      "author": "B.Huang",
+      "trans": {
+        "cn": "永远写一个有意义的提交消息。"
+      }
+    },
+    {
+      "desc": "Remenber, review every PR **carefully**!!!",
+      "author": "B.Huang",
+      "trans": {
+        "cn": "记住，仔细审核每一个pr！！！"
+      }
     }
   ]
 }
