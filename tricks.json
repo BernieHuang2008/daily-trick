@@ -50,6 +50,20 @@
       "trans": {
         "cn": "协作和沟通是成功的软件开发的关键。"
       }
+    },
+    {
+      "desc": "Respect the project's guidelines and coding standards when submitting contributions.",
+      "author": "N.Chen",
+      "trans": {
+        "cn": "在提交贡献时尊重项目的指南和编码标准。"
+      }
+    },
+    {
+      "desc": "Collaborate with others by forking a project, making changes, and submitting pull requests for review.",
+      "author": "L. Garcia",
+      "trans": {
+        "cn": "通过分叉项目、进行更改并提交拉取请求进行协作。"
+      }
     }
   ]
 }
