@@ -24,10 +24,17 @@
       }
     },
     {
-      "desc": "Remenber, review every PR **carefully**!!!",
+      "desc": "Remember, review every PR **carefully**!!!",
       "author": "B.Huang",
       "trans": {
         "cn": "记住，仔细审核每一个pr！！！"
+      }
+    },
+    {
+      "desc": "Practice good code hygiene by following coding standards and conventions.",
+      "author": "N.Chen",
+      "trans": {
+        "cn": "通过遵循编码标准和约定来练习良好的代码卫生。"
       }
     }
   ]
