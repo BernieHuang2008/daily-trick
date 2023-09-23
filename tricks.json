@@ -36,6 +36,13 @@
       "trans": {
         "cn": "通过遵循编码标准和约定来练习良好的代码卫生。"
       }
+    },
+    {
+      "desc": "Regularly backup your important data on cloud to prevent data loss.",
+      "author": "N.Chen",
+      "trans": {
+        "cn": "定期云备份重要数据以防止数据丢失。"
+      }
     }
   ]
 }
