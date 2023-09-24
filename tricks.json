@@ -1,69 +1,321 @@
 {
-  "tricks": [
-    {
-      "desc": "short description",
-      "url": "article url if have",
-      "author": "example",
-      "trans": {
-        "lang": "translation"
-      }
-    },
-    {
-      "desc": "Use `git rebase -i` to tidy up your work-tree!",
-      "url": "https://help.github.com/en/github/using-git/about-git-rebase#commands-available-while-rebasing",
-      "author": "B.Huang",
-      "trans": {
-        "cn": "使用 `git rebase -i` 命令整理你的git工作树！"
-      }
-    },
-    {
-      "desc": "Always leave a meaningful commit-message.",
-      "author": "B.Huang",
-      "trans": {
-        "cn": "永远写一个有意义的提交消息。"
-      }
-    },
-    {
-      "desc": "Remember, review every PR **carefully**!!!",
-      "author": "B.Huang",
-      "trans": {
-        "cn": "记住，仔细审核每一个pr！！！"
-      }
-    },
-    {
-      "desc": "Practice good code hygiene by following coding standards and conventions.",
-      "author": "N.Chen",
-      "trans": {
-        "cn": "通过遵循编码标准和约定来练习良好的代码卫生。"
-      }
-    },
-    {
-      "desc": "Regularly backup your important data on cloud to prevent data loss.",
-      "author": "N.Chen",
-      "trans": {
-        "cn": "定期云备份重要数据以防止数据丢失。"
-      }
-    },
-    {
-      "desc": "Collaboration and communication are key to successful software development.",
-      "author": "N.Chen",
-      "trans": {
-        "cn": "协作和沟通是成功的软件开发的关键。"
-      }
-    },
-    {
-      "desc": "Respect the project's guidelines and coding standards when submitting contributions.",
-      "author": "N.Chen",
-      "trans": {
-        "cn": "在提交贡献时尊重项目的指南和编码标准。"
-      }
-    },
-    {
-      "desc": "Collaborate with others by forking a project, making changes, and submitting pull requests for review.",
-      "author": "N.Chen",
-      "trans": {
-        "cn": "通过分叉项目、进行更改并提交拉取请求进行协作。"
-      }
-    }
-  ]
+    "tricks": [
+        {
+            "desc": "short description",
+            "url": "article url if have",
+            "author": "example",
+            "trans": {
+                "lang": "translation"
+            }
+        },
+        {
+            "desc": "Use `git rebase -i` to tidy up your work-tree!",
+            "url": "https://help.github.com/en/github/using-git/about-git-rebase#commands-available-while-rebasing",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "使用 `git rebase -i` 命令整理你的git工作树！"
+            }
+        },
+        {
+            "desc": "Always leave a meaningful commit-message.",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "写一个有意义的提交消息"
+            }
+        },
+        {
+            "desc": "Remember, review every PR **carefully**!!!",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "记住，仔细审核每一个pr！！！"
+            }
+        },
+        {
+            "desc": "Practice good code hygiene by following coding standards and conventions.",
+            "author": "N.Chen",
+            "trans": {
+                "cn": "通过遵循编码标准和约定来练习良好的代码卫生"
+            }
+        },
+        {
+            "desc": "Regularly backup your important data on cloud to prevent data loss.",
+            "author": "N.Chen",
+            "trans": {
+                "cn": "定期云备份重要数据以防止数据丢失"
+            }
+        },
+        {
+            "desc": "Collaboration and communication are key to successful software development.",
+            "author": "N.Chen",
+            "trans": {
+                "cn": "协作和沟通是成功的软件开发的关键"
+            }
+        },
+        {
+            "desc": "Respect the project's guidelines and coding standards when submitting contributions.",
+            "author": "N.Chen",
+            "trans": {
+                "cn": "在提交贡献时尊重项目的指南和编码标准"
+            }
+        },
+        {
+            "desc": "Collaborate with others by forking a project, making changes, and submitting pull requests for review.",
+            "author": "N.Chen",
+            "trans": {
+                "cn": "通过分叉项目、进行更改并提交拉取请求进行协作"
+            }
+        },
+        {
+            "desc": "Commit early and often, keeping each commit focused on a single task. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "早提交，频繁提交，每次提交只关注一个任务"
+            }
+        },
+        {
+            "desc": "Use meaningful commit messages that explain the purpose of the change. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "使用有意义的提交消息来解释更改的目的"
+            }
+        },
+        {
+            "desc": "Before committing, review your changes with "git diff" to ensure you're including the right files. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "在提交之前，使用“git diff”审查更改，确保包括正确的文件"
+            }
+        },
+        {
+            "desc": "Create feature branches for new development to keep the main branch stable. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "为新开发创建功能分支，以保持主分支的稳定性"
+            }
+        },
+        {
+            "desc": "Regularly update your local repository with "git pull" to incorporate remote changes. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "定期使用“git pull”更新本地存储库以整合远程更改"
+            }
+        },
+        {
+            "desc": "Use "git stash" to temporarily save changes before switching branches. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "在切换分支之前使用“git stash”暂时保存更改"
+            }
+        },
+        {
+            "desc": "Learn to resolve merge conflicts by editing the conflicting files manually. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "学会通过手动编辑冲突文件来解决合并冲突"
+            }
+        },
+        {
+            "desc": "Avoid force-pushing to remote branches to prevent data loss. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "避免强制推送到远程分支，以防止数据丢失"
+            }
+        },
+        {
+            "desc": "Configure your global Git settings with "git config" for a better overall experience. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "使用“git config”配置全局Git设置以获得更好的整体体验"
+            }
+        },
+        {
+            "desc": "Use "git log" with various options to explore commit history effectively. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "使用不同选项的“git log”来有效地查看提交历史"
+            }
+        },
+        {
+            "desc": "Secure your code by adding a ".gitignore" file to exclude sensitive files from version control. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "通过添加“.gitignore”文件来保护您的代码，从版本控制中排除敏感文件"
+            }
+        },
+        {
+            "desc": "Master the basics of branching and merging to collaborate seamlessly with others. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "掌握分支和合并的基础知识，以与他人无缝协作"
+            }
+        },
+        {
+            "desc": "Utilize "git blame" to find out who made specific changes to a file and when. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "使用“git blame”查找谁对文件进行了特定的更改以及何时更改的"
+            }
+        },
+        {
+            "desc": "Tag important releases with version numbers using "git tag." ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "使用“git tag”为重要的发布添加版本号标签"
+            }
+        },
+        {
+            "desc": "Keep your repository clean by periodically running "git clean" to remove untracked files. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "定期运行“git clean”以删除未跟踪的文件，保持存储库整洁"
+            }
+        },
+        {
+            "desc": "Customize your Git prompt to display branch and status information for convenience. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "自定义Git提示以方便显示分支和状态信息"
+            }
+        },
+        {
+            "desc": "Understand the "HEAD" pointer and how it points to the current branch or commit. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "了解“HEAD”指针以及它如何指向当前分支或提交"
+            }
+        },
+        {
+            "desc": "Use "git cherry-pick" to apply specific commits from one branch to another. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "使用“git cherry-pick”从一个分支应用特定的提交到另一个分支"
+            }
+        },
+        {
+            "desc": "Collaborate effectively by using pull requests or merge requests in hosted Git platforms. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "通过在托管的Git平台上使用拉取请求或合并请求来有效地协作"
+            }
+        },
+        {
+            "desc": "Configure a global ".gitignore" file for common exclusions across all your repositories. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "为所有存储库配置一个全局“.gitignore”文件，用于常见的排除项"
+            }
+        },
+        {
+            "desc": "Experiment with Git aliases to create shortcuts for frequently used commands. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "尝试使用Git别名为经常使用的命令创建快捷方式"
+            }
+        },
+        {
+            "desc": "Use "git bisect" to pinpoint the commit that introduced a bug in your code. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "使用“git bisect”来确定引入代码错误的提交"
+            }
+        },
+        {
+            "desc": "Backup your repositories regularly to prevent data loss in case of hardware failure. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "定期备份存储库，以防硬件故障导致数据丢失"
+            }
+        },
+        {
+            "desc": "Employ branching strategies like Git Flow or GitHub Flow for structured development workflows. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "采用分支策略，如Git Flow或GitHub Flow，用于结构化的开发工作流程"
+            }
+        },
+        {
+            "desc": "Learn to revert commits with "git revert" instead of deleting them to maintain history. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "学会使用“git revert”还原提交，而不是删除它们以保留历史记录"
+            }
+        },
+        {
+            "desc": "Keep your Git client and server up to date to benefit from performance and security improvements. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "保持Git客户端和服务器的更新，以从性能和安全性改进中受益"
+            }
+        },
+        {
+            "desc": "Use "git config" to set your preferred text editor for commit messages and other Git operations. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "使用“git config”设置首选的文本编辑器以进行提交消息和其他Git操作"
+            }
+        },
+        {
+            "desc": "Apply "git reflog" to recover accidentally deleted or lost commits and branches. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "使用“git reflog”来恢复意外删除或丢失的提交和分支"
+            }
+        },
+        {
+            "desc": "Employ "git submodule" for managing external dependencies within your project. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "使用“git submodule”来管理项目内的外部依赖关系"
+            }
+        },
+        {
+            "desc": "Collaborate with others effectively by establishing clear guidelines for branching and code review processes. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "通过建立明确的分支和代码审查流程指南，与他人有效协作"
+            }
+        },
+        {
+            "desc": "Use "git cherry" to compare two branches and identify unmerged commits. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "使用“git cherry”比较两个分支并识别未合并的提交"
+            }
+        },
+        {
+            "desc": "Enable GPG signing for your commits to enhance security and verify authorship. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "为您的提交启用GPG签名以增强安全性和验证作者身份"
+            }
+        },
+        {
+            "desc": "Familiarize yourself with Git's internal data structures for a deeper understanding of how Git works. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "熟悉Git的内部数据结构，以更深入地了解Git的工作原理"
+            }
+        },
+        {
+            "desc": "Practice good branching hygiene by deleting feature branches after they are merged. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "维护良好的分支卫生习惯，在合并后删除功能分支"
+            }
+        },
+        {
+            "desc": "Use "git rebase" to create a linear commit history for feature branches before merging. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "在合并之前使用“git rebase”为功能分支创建线性提交历史"
+            }
+        },
+        {
+            "desc": "Employ "git archive" to create compressed snapshots of specific commits or branches. ",
+            "author": "B.Huang",
+            "trans": {
+                "cn": "使用“git archive”创建特定提交或分支的压缩快照"
+            }
+        }
+    ]
 }
