@@ -80,7 +80,7 @@
             }
         },
         {
-            "desc": "Before committing, review your changes with "git diff" to ensure you're including the right files. ",
+            "desc": "Before committing, review your changes with `git diff` to ensure you're including the right files. ",
             "author": "B.Huang",
             "trans": {
                 "cn": "在提交之前，使用“git diff”审查更改，确保包括正确的文件"
@@ -94,14 +94,14 @@
             }
         },
         {
-            "desc": "Regularly update your local repository with "git pull" to incorporate remote changes. ",
+            "desc": "Regularly update your local repository with `git pull` to incorporate remote changes. ",
             "author": "B.Huang",
             "trans": {
                 "cn": "定期使用“git pull”更新本地存储库以整合远程更改"
             }
         },
         {
-            "desc": "Use "git stash" to temporarily save changes before switching branches. ",
+            "desc": "Use `git stash` to temporarily save changes before switching branches. ",
             "author": "B.Huang",
             "trans": {
                 "cn": "在切换分支之前使用“git stash”暂时保存更改"
@@ -122,21 +122,21 @@
             }
         },
         {
-            "desc": "Configure your global Git settings with "git config" for a better overall experience. ",
+            "desc": "Configure your global Git settings with `git config` for a better overall experience. ",
             "author": "B.Huang",
             "trans": {
                 "cn": "使用“git config”配置全局Git设置以获得更好的整体体验"
             }
         },
         {
-            "desc": "Use "git log" with various options to explore commit history effectively. ",
+            "desc": "Use `git log` with various options to explore commit history effectively. ",
             "author": "B.Huang",
             "trans": {
                 "cn": "使用不同选项的“git log”来有效地查看提交历史"
             }
         },
         {
-            "desc": "Secure your code by adding a ".gitignore" file to exclude sensitive files from version control. ",
+            "desc": "Secure your code by adding a `.gitignore` file to exclude sensitive files from version control. ",
             "author": "B.Huang",
             "trans": {
                 "cn": "通过添加“.gitignore”文件来保护您的代码，从版本控制中排除敏感文件"
@@ -150,21 +150,21 @@
             }
         },
         {
-            "desc": "Utilize "git blame" to find out who made specific changes to a file and when. ",
+            "desc": "Utilize `git blame` to find out who made specific changes to a file and when. ",
             "author": "B.Huang",
             "trans": {
                 "cn": "使用“git blame”查找谁对文件进行了特定的更改以及何时更改的"
             }
         },
         {
-            "desc": "Tag important releases with version numbers using "git tag." ",
+            "desc": "Tag important releases with version numbers using `git tag.` ",
             "author": "B.Huang",
             "trans": {
                 "cn": "使用“git tag”为重要的发布添加版本号标签"
             }
         },
         {
-            "desc": "Keep your repository clean by periodically running "git clean" to remove untracked files. ",
+            "desc": "Keep your repository clean by periodically running `git clean` to remove untracked files. ",
             "author": "B.Huang",
             "trans": {
                 "cn": "定期运行“git clean”以删除未跟踪的文件，保持存储库整洁"
@@ -178,14 +178,14 @@
             }
         },
         {
-            "desc": "Understand the "HEAD" pointer and how it points to the current branch or commit. ",
+            "desc": "Understand the `HEAD` pointer and how it points to the current branch or commit. ",
             "author": "B.Huang",
             "trans": {
                 "cn": "了解“HEAD”指针以及它如何指向当前分支或提交"
             }
         },
         {
-            "desc": "Use "git cherry-pick" to apply specific commits from one branch to another. ",
+            "desc": "Use `git cherry-pick` to apply specific commits from one branch to another. ",
             "author": "B.Huang",
             "trans": {
                 "cn": "使用“git cherry-pick”从一个分支应用特定的提交到另一个分支"
@@ -199,7 +199,7 @@
             }
         },
         {
-            "desc": "Configure a global ".gitignore" file for common exclusions across all your repositories. ",
+            "desc": "Configure a global `.gitignore` file for common exclusions across all your repositories. ",
             "author": "B.Huang",
             "trans": {
                 "cn": "为所有存储库配置一个全局“.gitignore”文件，用于常见的排除项"
@@ -213,7 +213,7 @@
             }
         },
         {
-            "desc": "Use "git bisect" to pinpoint the commit that introduced a bug in your code. ",
+            "desc": "Use `git bisect` to pinpoint the commit that introduced a bug in your code. ",
             "author": "B.Huang",
             "trans": {
                 "cn": "使用“git bisect”来确定引入代码错误的提交"
@@ -234,7 +234,7 @@
             }
         },
         {
-            "desc": "Learn to revert commits with "git revert" instead of deleting them to maintain history. ",
+            "desc": "Learn to revert commits with `git revert` instead of deleting them to maintain history. ",
             "author": "B.Huang",
             "trans": {
                 "cn": "学会使用“git revert”还原提交，而不是删除它们以保留历史记录"
@@ -248,21 +248,21 @@
             }
         },
         {
-            "desc": "Use "git config" to set your preferred text editor for commit messages and other Git operations. ",
+            "desc": "Use `git config` to set your preferred text editor for commit messages and other Git operations. ",
             "author": "B.Huang",
             "trans": {
                 "cn": "使用“git config”设置首选的文本编辑器以进行提交消息和其他Git操作"
             }
         },
         {
-            "desc": "Apply "git reflog" to recover accidentally deleted or lost commits and branches. ",
+            "desc": "Apply `git reflog` to recover accidentally deleted or lost commits and branches. ",
             "author": "B.Huang",
             "trans": {
                 "cn": "使用“git reflog”来恢复意外删除或丢失的提交和分支"
             }
         },
         {
-            "desc": "Employ "git submodule" for managing external dependencies within your project. ",
+            "desc": "Employ `git submodule` for managing external dependencies within your project. ",
             "author": "B.Huang",
             "trans": {
                 "cn": "使用“git submodule”来管理项目内的外部依赖关系"
@@ -276,7 +276,7 @@
             }
         },
         {
-            "desc": "Use "git cherry" to compare two branches and identify unmerged commits. ",
+            "desc": "Use `git cherry` to compare two branches and identify unmerged commits. ",
             "author": "B.Huang",
             "trans": {
                 "cn": "使用“git cherry”比较两个分支并识别未合并的提交"
@@ -304,14 +304,14 @@
             }
         },
         {
-            "desc": "Use "git rebase" to create a linear commit history for feature branches before merging. ",
+            "desc": "Use `git rebase` to create a linear commit history for feature branches before merging. ",
             "author": "B.Huang",
             "trans": {
                 "cn": "在合并之前使用“git rebase”为功能分支创建线性提交历史"
             }
         },
         {
-            "desc": "Employ "git archive" to create compressed snapshots of specific commits or branches. ",
+            "desc": "Employ `git archive` to create compressed snapshots of specific commits or branches. ",
             "author": "B.Huang",
             "trans": {
                 "cn": "使用“git archive”创建特定提交或分支的压缩快照"
