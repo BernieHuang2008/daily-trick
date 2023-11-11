@@ -316,6 +316,48 @@
             "trans": {
                 "cn": "使用“git archive”创建特定提交或分支的压缩快照"
             }
+        },
+        {
+            "desc": "Writing a good commit message is a sign of respect for the code.",
+            "author": "L.Huo",
+            "trans": {
+                "cn": "一个规范的提交信息，是对代码的尊重。"
+            }
+        },
+        {
+            "desc": "Creating a feature branch shows respect to other contributors.",
+            "author": "L.Huo",
+            "trans": {
+                "cn": "创建一个功能分支，是对其他协同贡献者的尊重。"
+            }
+        },
+        {
+            "desc": "Writing comments well is a sign of respect for the code audit (and for you 3 days later).",
+            "author": "L.Huo",
+            "trans": {
+                "cn": "写好注释，是对代码审计的尊重（和3天后的你）。"
+            }
+        },
+        {
+            "desc": "Create Pull Requests instead of modifying code directly.",
+            "author": "L.Huo",
+            "trans": {
+                "cn": "参与贡献时，创建Pull Requests而非直接修改代码。"
+            }
+        },
+        {
+            "desc": "Having a clear workflow is a good start.",
+            "author": "L.Huo",
+            "trans": {
+                "cn": "有一个清晰的文件管理工作流，是一个项目好的开始。"
+            }
+        },
+        {
+            "desc": "Use or write a handy git commit tool and try to follow a common development protocol.",
+            "author": "L.Huo",
+            "trans": {
+                "cn": "使用或编写趁手的git版本管理脚本，并尝试遵循一个通用的开发规范。"
+            }
         }
     ]
 }
